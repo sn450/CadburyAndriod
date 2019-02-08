@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".InputActivity">
+
+    <TextView
+        android:id="@+id/txts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_dice_number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spindice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/count"
+        android:textAlignment="center"></Spinner>
+
+    <!--<EditText
+        android:id="@+id/edd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_the_dice_number"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click ME"
+        android:textStyle="bold" />-->
+</LinearLayout>

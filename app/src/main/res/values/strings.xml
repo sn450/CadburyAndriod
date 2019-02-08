@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CadburyAndriod</string>
+    <string name="enter_the_dice_number">Enter the Dice Number</string>
+    <string-array name="count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>
